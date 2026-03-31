@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Tan Pearl";
+    src: url("./tan-pearl.otf");
+}
+
+.brand-font {
+    font-family: "Tan Pearl", serif;
+    font-size: smaller;
+}
+
+.pretty-text {
+    background-clip: text;
+    color: transparent;
+    /*background-image: linear-gradient(to right, #dbb1ec, #8354f5, #d7a7ff); <- brand colours from logo, look a bit ugly*/
+    background-image: linear-gradient(to right, #fce7f3, #a5b4fc, #c7d2fe); /* tailwind colours */
+}
+
+.brand-bg {
+    background-color: #101018;
+}
+
+.transition-grad-t {
+    background-image: linear-gradient(to top, black, #101018);
+}
+
+.transition-grad-b {
+    background-image: linear-gradient(to bottom, black, #101018);
+}
+
+.transition-grad-even {
+    background-image: linear-gradient(to bottom, #101018 75%, black);
+}
+
+.transition-grad-odd {
+    background-image: linear-gradient(to bottom, black 25%, #101018);
+}
+
+.stars-bg {
+    background-image: url('../images/stars.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo-grad {
+    background-image: radial-gradient(circle, #712deb, #dbb1ec 7%, #8354f5 13%, #735c9f 17%, transparent 22%);
+    height: 23.5rem;
+}
+
+.pretty-border {
+    border-image: linear-gradient(to right, #fce7f3, #a5b4fc, #c7d2fe) 1;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pretty-button {
+    background: #e6e6fa;
+    color: black;
+}
+
+input, textarea {
+    padding: 0.75rem !important;
+    background: #101018;
+}
+
+.full-screen {
+    height: calc(100vh - 8rem);
+}
