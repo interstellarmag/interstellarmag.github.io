@@ -42,9 +42,15 @@
     background-size: cover;
 }
 
-.logo-grad {
+/* .logo-grad {
     background-image: radial-gradient(circle, #712deb, #dbb1ec 7%, #8354f5 13%, #735c9f 17%, transparent 22%);
     height: 23.5rem;
+} */
+
+.logo-grad {
+    background-image: url("../images/blank_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pretty-border {
